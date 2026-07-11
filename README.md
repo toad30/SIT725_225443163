@@ -1,1 +1,2 @@
-# SIT725_225443163
+# SIT725 Tasks
+This repo contains tasks completed for unit SIT725.
