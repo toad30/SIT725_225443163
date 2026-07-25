@@ -1,0 +1,30 @@
+{
+  "name": "3.2p",
+  "version": "1.0.0",
+  "description": "Tasks for SIT725 3.2P",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toad30/SIT725_225443163.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "Materialize",
+    "HTML",
+    "JS",
+    "CSS"
+  ],
+  "author": "Aaron Chewlun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toad30/SIT725_225443163/issues"
+  },
+  "homepage": "https://github.com/toad30/SIT725_225443163/blob/main/README.md",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

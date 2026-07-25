@@ -1,0 +1,45 @@
+.navbar-size {
+    width: 95%;
+    margin: 0 auto;
+}
+
+nav .brand-logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: auto;
+}
+
+nav .brand-logo img {
+    display: block;
+    height: 50px;
+}
+
+.main-body {
+    min-height: calc(100vh - 64px);
+    color: black;
+}
+
+.heading {
+    font-size: 48px;
+}
+
+.flow-text {
+    font-size: 20px;
+}
+
+.featured-frog {
+    width: 350px;
+    height: 300px;
+}
+
+.card .card-image .card-title {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.card .card-image img {
+    height: 200px;
+    object-fit: cover;
+}
