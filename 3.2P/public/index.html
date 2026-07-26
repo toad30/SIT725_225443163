@@ -27,7 +27,7 @@
             <div class="row">
                 <div class="col s12 center-align">
                     <h1 class="heading">SIT725 Task 3.3P</h1>
-                    <p class="flow-text">This webpage shows cards with information about frogs.</p>
+                    <p class="flow-text">This webpage is dedicated to spreading fun facts about frogs.</p>
                 </div>
             </div>
 
@@ -45,7 +45,7 @@
                     <p class="flow-text">Previous Frogs of the Day</p>
                 </div>
                 <div class="col s12 l6 right-align">
-                    <a class="waves-effect waves-light btn" id="random-frog-btn">Newsletter</a>
+                    <a class="waves-effect waves-light btn modal-trigger" href="#modal1" id="newsletter-btn">Newsletter</a>
                 </div>
             </div>
 
@@ -106,7 +106,45 @@
         </div>
     </main>
 
+    <div id="modal1" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <h4>Newsletter Signup</h4>
+            <p>Sign up for our newsletter to receive fun frog facts every day!</p>
+
+            <form id="newsletter-form">
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <input id="first-name" type="text" class="validate" required>
+                        <label for="first-name">First Name</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                        <input id="last-name" type="text" class="validate" required>
+                        <label for="last-name">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate" required>
+                        <label for="email">Email Address</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="favourite-frog" type="text" class="validate">
+                        <label for="favourite-frog">Favourite Frog?</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <a href="#" id="cancel-newsletter" class="modal-close waves-effect waves-green btn-flat">Cancel</a>
+            <a href="#" id="submit-newsletter" class="waves-effect waves-light btn">Register</a>
+        </div>
+    </div>
+
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
