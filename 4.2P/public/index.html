@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SIT725 Task 4.2P</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="light-green lighten-2">
+    <nav class="light-green">
+        <div class="nav-wrapper navbar-size">
+            <a href="#" class="brand-logo">
+                <img src="assets/frog.png" alt="Frog logo" class="user-image-size" />
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a target="_blank" href="https://en.wikipedia.org/wiki/Frog">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-body">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center-align">
+                    <h1 class="heading">SIT725 Task 4.2P</h1>
+                    <p class="flow-text">This webpage is dedicated to highlighting fun and interesting frogs.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 center-align">
+                    <img class="featured-frog" src="assets/turtle frog.jpg" />
+                    <p class="flow-text">
+                        Frog of the Day: <a href="https://en.wikipedia.org/wiki/Myobatrachus" style="text-decoration: underline;">Turtle Frog</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row valign-wrapper">
+                <div class="col s12 l6 left-align">
+                    <p class="flow-text">Previous Frogs of the Day</p>
+                </div>
+                <div class="col s12 l6 right-align">
+                    <a class="waves-effect waves-light btn modal-trigger" href="#modal1" id="newsletter-btn">Newsletter</a>
+                </div>
+            </div>
+
+            <div class="row" id="frog-cards"></div>
+        </div>
+    </main>
+
+    <div id="modal1" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <h4>Newsletter Signup</h4>
+            <p>Sign up for our newsletter to receive fun frog facts every day!</p>
+
+            <form id="newsletter-form">
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <input id="first-name" type="text" class="validate" required>
+                        <label for="first-name">First Name</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                        <input id="last-name" type="text" class="validate" required>
+                        <label for="last-name">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate" required>
+                        <label for="email">Email Address</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="favourite-frog" type="text" class="validate">
+                        <label for="favourite-frog">Favourite Frog?</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <a href="#" id="cancel-newsletter" class="modal-close waves-effect waves-green btn-flat">Cancel</a>
+            <a href="#" id="submit-newsletter" class="waves-effect waves-light btn">Register</a>
+        </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
