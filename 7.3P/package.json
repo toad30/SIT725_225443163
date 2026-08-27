@@ -1,0 +1,24 @@
+{
+  "name": "7.3p",
+  "version": "1.0.0",
+  "description": "Tasks for SIT725 Task 7.3P",
+  "keywords": [
+    "JavaScript",
+    "NodeJS",
+    "HTML",
+    "SocketIO",
+    "Sockets",
+    "Express"
+  ],
+  "license": "ISC",
+  "author": "Aaron Chewlun",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  }
+}
